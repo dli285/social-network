@@ -1,8 +1,10 @@
 import React from "react";
 import "./ProfilePage.scss";
+import { Container } from "../../components/Container/Container";
 
 export const ProfilePage = () => {
   return (
+    <Container>
     <div className="ProfilePage">
       <aside className="LeftSide">
         <nav className="Navbar">
@@ -833,5 +835,6 @@ export const ProfilePage = () => {
         </div>
       </aside>
     </div>
+  </Container>
   );
 };
